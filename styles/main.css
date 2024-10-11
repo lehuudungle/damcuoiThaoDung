@@ -10070,6 +10070,15 @@ body {
         100% { transform: translate(1px, -2px) rotate(-1deg); }
     }
 
+.play_text {
+    color: white; /* Đặt màu chữ thành trắng */
+}
+.bottom_left_content {
+    display: flex; /* Sử dụng flexbox để căn giữa */
+    flex-direction: row; /* Sắp xếp theo cột */
+    align-items: center; 
+}
+
 .bottom_left {
     overflow: hidden;
     position: fixed;
@@ -10077,6 +10086,10 @@ body {
     bottom: 0;
     left: 0;
     margin: 0px 30px 30px 30px;
-    color: red;
-    animation: shake 0.5s infinite;
+    color: black;
+    animation: shake 3s infinite;
+    background-color:rgba(121, 113, 113, 1.0); 
+    padding: 10px; /* Khoảng cách bên trong */
+    border: solid rgba(121, 113, 113, 1.0);
+    border-radius: 10px; /* B
 }
